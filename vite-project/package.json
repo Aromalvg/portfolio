@@ -3,21 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "homepage": "https://Aromalvg.github.io/portfolio",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@tabler/icons-react": "^3.29.0",
+    "@tabler/icons-react": "^3.30.0",
     "@tailwindcss/postcss": "^4.0.1",
     "@tailwindcss/vite": "^4.0.1",
+    "bootstrap": "^5.3.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.0.11",

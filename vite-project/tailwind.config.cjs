@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         cardcolor: '#0d031c',
         navcolor: "#595361",
+
       },
     },
   },

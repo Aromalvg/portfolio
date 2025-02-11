@@ -33,7 +33,9 @@ export const HeroHighlight = ({
         containerClassName
       )}
       style={{
-        background: "linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(29,12,46,1) 50%, rgba(0,0,0,1) 100%)"      }}
+        background: "linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(61,27,96,1) 50%, rgba(0,0,0,1) 100%)"
+      }}
+        
       onMouseMove={handleMouseMove}
     >
       {/* Fullscreen Dot Background */}
